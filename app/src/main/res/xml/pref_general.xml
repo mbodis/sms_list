@@ -1,0 +1,54 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Sms -->
+    <PreferenceCategory android:title="@string/pref_header_sms">
+
+        <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+        <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+        <EditTextPreference
+            android:capitalize="none"
+            android:defaultValue="@string/pref_default_sms_keyword"
+            android:inputType="text"
+            android:key="@string/pref_key_sms_keyword"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/pref_summary_sms_keyword"
+            android:title="@string/pref_title_sms_keyword" />
+
+        <ListPreference
+            android:defaultValue="@string/pref_default_text_find"
+            android:entries="@array/text_find_values"
+            android:entryValues="@array/text_find_keys"
+            android:key="@string/pref_key_text_find"
+            android:summary="@string/pref_summary_text_find"
+            android:title="@string/pref_title_text_find" />
+
+
+    </PreferenceCategory>
+
+    <!-- Notifications -->
+    <PreferenceCategory android:title="@string/pref_header_notification">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/pref_key_notification"
+            android:summaryOn="@string/pref_summary_notification_on"
+            android:summaryOff="@string/pref_summary_notification_off"
+            android:title="@string/pref_title_notification" />
+
+        <Preference
+            android:defaultValue="@string/pref_default_notif_time"
+            android:dependency="@string/pref_key_notification"
+            android:key="@string/pref_key_notif_time"
+            android:title="@string/pref_title_notif_time" />
+    </PreferenceCategory>
+
+    <!-- General -->
+    <PreferenceCategory android:title="@string/pref_header_general">
+        <Preference
+            android:key="@string/pref_key_licences"
+            android:summary="@string/pref_summary_licences"
+            android:title="@string/pref_title_licences" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

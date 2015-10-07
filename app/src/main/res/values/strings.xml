@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Main Activity -->
+    <string name="app_name">Sms list</string>
+
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="saved">Saved</string>
+    <string name="deleted">Deleted</string>
+
+    <!-- List of notes -->
+    <string name="note_today">today</string>
+    <string name="note_last_week">last week</string>
+    <string name="note_last_month">last month</string>
+    <string name="note_other">other</string>
+    <string name="empty_list">There are no notes</string>
+
+    <!-- New/Edit Note -->
+    <string name="title_activity_new_note">New Note</string>
+    <string name="title_activity_edit_note">Edit Note</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_return">Return to notes</string>
+    <string name="title_hint">Title</string>
+    <string name="message_hint">Message</string>
+
+    <!-- Notifications -->
+    <string name="notif_title_today_notes">Today\'s notes</string>
+
+    <!-- DIALOG: Licences -->
+    <string name="licence_dialog_title">Licences</string>
+    <string name="license_android_support_v4">android-support-v4.jar</string>
+    <string name="license_android_support_v7">android-support-v7-appcompat.jar</string>
+    <string name="license_sugarorm">sugar ORM</string>
+
+    <!-- DIALOG: Delete all -->
+    <string name="dialog_title_delete_all">Delete all</string>
+    <string name="dialog_msg_delete_all">Are you sure you want to remove all notes ?</string>
+
+    <!-- Drawer -->
+    <string name="title_section1">Notes</string>
+    <string name="title_section2">Trash Bin</string>
+    <string name="title_section3">Settings</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Trash Bin -->
+    <string name="action_delete_all">delete all</string>
+
+</resources>

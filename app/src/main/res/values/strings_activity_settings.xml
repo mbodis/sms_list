@@ -1,0 +1,56 @@
+<resources>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- SMS settings -->
+    <string name="pref_header_sms">SMS</string>
+
+    <string name="pref_title_sms_keyword">Key word</string>
+    <string name="pref_summary_sms_keyword">This word is searched for in all messages. You can add more words using coma, as separator \n\nwords: </string>
+    <string name="pref_key_sms_keyword">sms_prefix</string>
+    <string name="pref_default_sms_keyword">buy</string>
+
+    <string name="pref_title_text_find">Search type</string>
+    <string name="pref_summary_text_find">Select where to look for key word in SMS message</string>
+    <string name="pref_key_text_find">text_find</string>
+    <string name="pref_default_text_find">@string/text_find_prefix</string>
+
+    <string name="text_find_prefix">prefix</string>
+    <string name="text_find_infix">infix</string>
+    <string name="text_find_postfix">postfix</string>
+
+    <string name="text_find_prefix_val">at the beginning</string>
+    <string name="text_find_infix_val">in whole text</string>
+    <string name="text_find_postfix_val">at the end of message</string>
+
+    <string-array name="text_find_values">
+        <item>@string/text_find_prefix_val</item>
+        <item>@string/text_find_infix_val</item>
+        <item>@string/text_find_postfix_val</item>
+    </string-array>
+
+    <string-array name="text_find_keys">
+        <item>@string/text_find_prefix</item>
+        <item>@string/text_find_infix</item>
+        <item>@string/text_find_postfix</item>
+    </string-array>
+
+    <!-- Notification settings -->
+    <string name="pref_header_notification">Notifications</string>
+
+    <string name="pref_title_notification">Notification message</string>
+    <string name="pref_summary_notification_on">Remind me today\'s SMS</string>
+    <string name="pref_summary_notification_off">don\'t notify me</string>
+    <string name="pref_key_notification">notif_key</string>
+
+    <string name="pref_title_notif_time">Notify me at</string>
+    <string name="pref_key_notif_time">notif_time</string>
+    <string name="pref_default_notif_time">17:00</string>
+
+    <!-- General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_licences">Licences</string>
+    <string name="pref_summary_licences">3rd party used licences</string>
+    <string name="pref_key_licences">3rd_party_libraries</string>
+
+</resources>
