@@ -70,7 +70,7 @@ public class DbNoteModel {
         return res;
     }
 
-    public static List<Note> getTodaysNotes(){
+    public static List<Note> getTodayNotes(){
         List<Note> res = new ArrayList<Note>();
 
         int m = (Calendar.getInstance().get(Calendar.MONTH) + 1);
@@ -80,7 +80,7 @@ public class DbNoteModel {
                 + "-" + (m>9 ? m : "0"+m)
                 + "-" + (d>9 ? d : "0"+d );
 
-        for (Note mNote: Note.find(Note.class, "", new String[]{}, "", "date desc", "" )) {
+        for (Note mNote: Note.find(Note.class, "deleted=?", new String[]{"0"}, "", "date desc", "" )) {
             int diffDays = MySystemHelper.diffDatesInDays(mNote.getDate(), now);
 
             // today

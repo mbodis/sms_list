@@ -2,60 +2,60 @@
 <items version="2" >
 
     <item
-        jar="/home/mbodis/Documents/svab/it/android/git/svb_sms_todo_list/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/jars/classes.jar"
+        jar="/home/mbodis/Documents/svab/it/android/git_projects/svb_sms_todo_list/app/build/intermediates/exploded-aar/com.github.satyan/sugar/1.3/jars/classes.jar"
         jumboMode="false"
-        revision="23.0.1"
-        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
-        <dex dex="/home/mbodis/Documents/svab/it/android/git/svb_sms_todo_list/app/build/intermediates/pre-dexed/release/classes-979c3bb380553feec3681476aa37830e6e469b5e.jar" />
-    </item>
-    <item
-        jar="/home/mbodis/Documents/svab/it/android/git/svb_sms_todo_list/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/home/mbodis/Documents/svab/it/android/git/svb_sms_todo_list/app/build/intermediates/pre-dexed/release/classes-04a56ffbe3efede898fb167b184ebf3dd2ead918.jar" />
-    </item>
-    <item
-        jar="/home/mbodis/Documents/svab/it/android/git/svb_sms_todo_list/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/home/mbodis/Documents/svab/it/android/git/svb_sms_todo_list/app/build/intermediates/pre-dexed/release/internal_impl-23.0.1-4dd43013839caf636449c4fabd91a1f0599bee52.jar" />
-    </item>
-    <item
-        jar="/home/mbodis/Documents/svab/it/android/git/svb_sms_todo_list/app/build/intermediates/exploded-aar/com.github.satyan/sugar/1.3/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
+        revision="23.0.2"
         sha1="07e07903922250dabf50c7d131d6fa069a050305">
-        <dex dex="/home/mbodis/Documents/svab/it/android/git/svb_sms_todo_list/app/build/intermediates/pre-dexed/release/classes-001311f757376cb551a5a4ea74ce4fcd1b54e216.jar" />
+        <dex dex="/home/mbodis/Documents/svab/it/android/git_projects/svb_sms_todo_list/app/build/intermediates/pre-dexed/release/com.github.satyan-sugar-1.3_0fc025f1d544bbc5df4cffa7d385964d245af0a6.jar" />
+    </item>
+    <item
+        jar="/home/mbodis/Documents/svab/it/android/git_projects/svb_sms_todo_list/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="/home/mbodis/Documents/svab/it/android/git_projects/svb_sms_todo_list/app/build/intermediates/pre-dexed/release/com.android.support-design-23.0.1_5e2d17c844f5c5c67a67b61e1e1e5e6e3093e0cd.jar" />
+    </item>
+    <item
+        jar="/home/mbodis/Documents/svab/it/android/git_projects/svb_sms_todo_list/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/home/mbodis/Documents/svab/it/android/git_projects/svb_sms_todo_list/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-23.0.1_1cd03bb0886d5fdfddd241b3bf8c7d773333a3ae.jar" />
     </item>
     <item
         jar="/home/mbodis/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.5.0/4de2b4ed3445c37ec1720a7d214712e845a24636/okhttp-2.5.0.jar"
         jumboMode="false"
-        revision="23.0.1"
+        revision="23.0.2"
         sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
-        <dex dex="/home/mbodis/Documents/svab/it/android/git/svb_sms_todo_list/app/build/intermediates/pre-dexed/release/okhttp-2.5.0-be6e1dedee24be72833974c806f1c8bc17ce2cff.jar" />
+        <dex dex="/home/mbodis/Documents/svab/it/android/git_projects/svb_sms_todo_list/app/build/intermediates/pre-dexed/release/okhttp-2.5.0_be6e1dedee24be72833974c806f1c8bc17ce2cff.jar" />
     </item>
     <item
-        jar="/opt/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jar="/home/mbodis/Documents/svab/it/android/git_projects/svb_sms_todo_list/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
         jumboMode="false"
-        revision="23.0.1"
+        revision="23.0.2"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/home/mbodis/Documents/svab/it/android/git_projects/svb_sms_todo_list/app/build/intermediates/pre-dexed/release/internal_impl-23.0.1_8c4ba3cdf4c41fa60f2f12706092a7367f3ca0de.jar" />
+    </item>
+    <item
+        jar="/home/mbodis/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
         sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/home/mbodis/Documents/svab/it/android/git/svb_sms_todo_list/app/build/intermediates/pre-dexed/release/support-annotations-23.0.1-6eea4d5620de32d5bee1352124f44188102470d5.jar" />
-    </item>
-    <item
-        jar="/home/mbodis/Documents/svab/it/android/git/svb_sms_todo_list/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/home/mbodis/Documents/svab/it/android/git/svb_sms_todo_list/app/build/intermediates/pre-dexed/release/classes-d58e991d78601b6791f7137f577139840e80d400.jar" />
+        <dex dex="/home/mbodis/Documents/svab/it/android/git_projects/svb_sms_todo_list/app/build/intermediates/pre-dexed/release/support-annotations-23.0.1_63f0abb363fdb6820b1946132dfc03ee1617adaa.jar" />
     </item>
     <item
         jar="/home/mbodis/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
         jumboMode="false"
-        revision="23.0.1"
+        revision="23.0.2"
         sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="/home/mbodis/Documents/svab/it/android/git/svb_sms_todo_list/app/build/intermediates/pre-dexed/release/okio-1.6.0-d1417032dcbf92606783a6fffb5c98dd0e2552cb.jar" />
+        <dex dex="/home/mbodis/Documents/svab/it/android/git_projects/svb_sms_todo_list/app/build/intermediates/pre-dexed/release/okio-1.6.0_d1417032dcbf92606783a6fffb5c98dd0e2552cb.jar" />
+    </item>
+    <item
+        jar="/home/mbodis/Documents/svab/it/android/git_projects/svb_sms_todo_list/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/home/mbodis/Documents/svab/it/android/git_projects/svb_sms_todo_list/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-23.0.1_d06bb2877014baa36cdbcfe194a7d92446dbc427.jar" />
     </item>
 
 </items>

@@ -23,7 +23,7 @@ public class RemindNoteNotification {
     public static void showMeTodaysNotes(Context ctx) {
 
         // get all todays notes
-        List<Note> list = DbNoteModel.getTodaysNotes();
+        List<Note> list = DbNoteModel.getTodayNotes();
         StringBuilder message = new StringBuilder();
         for (Note mNote : list) {
             if (message.length() > 0){
